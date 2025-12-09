@@ -1,0 +1,16 @@
+{
+    "name": "Popüler Film sitesi",
+    "short_name": "FilmProje",
+    "description": "Web Programlama Dersi Projesi",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#64ffda",
+    "icons": [
+        {
+            "src": "assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

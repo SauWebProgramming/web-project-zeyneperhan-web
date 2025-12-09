@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #64ffda; 
+}
+
+.arama-alani {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+#arama-input {
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 450px;
+    border: 2px solid #64ffda;
+    border-radius: 50px; 
+    background-color: #222;
+    color: #e0e0e0;
+    font-size: 1em;
+    transition: all 0.3s ease; 
+    margin-bottom: 15px; 
+}
+
+
+#film-listesi {
+    
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 30px; 
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+  
+.film-kart {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    
+   
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+
+.film-kart:hover {
+    
+    transform: scale(1.03); 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.film-gorseli {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+.favori-ekle-btn, .detay-goster-btn, .favori-filtre-btn, .kapat-btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.1s; 
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.favori-ekle-btn, .favori-filtre-btn {
+    background-color: #555;
+    color: white;
+}
+
+.favori-ekle-btn.favori-aktif {
+    background-color: #e91e63;
+}
+
+
+button:focus, input:focus {
+    outline: 3px solid #00bcd4; 
+    outline-offset: 2px;
+}
+
+
+.modal-arkaplan {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    transition: opacity 0.4s ease;
+}
+
+.modal-icerik {
+    background-color: #1e1e1e;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid #333;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    color: #e0e0e0;
+}
+
+.modal-icerik h2 {
+    color: #64ffda;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 900px) {
+    #film-listesi {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    }
+    .modal-icerik {
+        width: 95%; 
+    }
+}
+
+@media (max-width: 600px) {
+    #film-listesi {
+        grid-template-columns: 1fr; 
+    }
+    .film-gorseli {
+        height: auto; 
+    }
+}

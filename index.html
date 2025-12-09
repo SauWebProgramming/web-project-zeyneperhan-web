@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popüler Film Ödevi</title> 
+    <title>Popüler Film Sitesi</title> 
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    
 </head>
 <body>
 
-    <h1>🎬 En Sevilenler Listesi</h1>
+    <h1>🎬 En Sevilenler Film Kitaplığı</h1>
     
+    <div class="arama-alani">
+        <input type="text" id="arama-input" placeholder="Film adı veya yönetmen ara...">
+        <button id="favorileri-goster-btn" class="favori-filtre-btn">🤍 Favorilerimi Göster</button>
+    </div>
+
     <div id="film-listesi" class="container">
         </div>
+
+    <div id="detay-modal" class="modal-arkaplan" style="display:none;">
+        class="modal-icerik"</div>
+            </div>
+    </div>
 
     <script src="javascript.js"></script>
 </body>
