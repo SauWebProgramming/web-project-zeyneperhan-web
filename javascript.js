@@ -9,7 +9,7 @@ let sadeceFavorilerGosteriliyor = false;
 
 const filmleriYukle = async () => {
     // 
-    const jsonDosyaYolu = './movies.json'; 
+    const jsonDosyaYolu = './movies.json';
     const listeKapsayici = document.getElementById(FILM_LISTESI_ID);
 
     try {
@@ -25,6 +25,7 @@ const filmleriYukle = async () => {
 
         filmleriGoster(filmler); 
         filtrelemeKurulumu(); 
+
 
     } catch (hata) {
         console.error("Filmler yüklenirken bir sorun oluştu:", hata);
@@ -75,41 +76,92 @@ const filmleriGoster = (filmler) => {
     detayButonlariniDinle();
 };
 
+// javascript.js - YENİ VE DÜZELTİLMİŞ filtrelemeKurulumu fonksiyonu
+
 const filtrelemeKurulumu = () => {
+
     const aramaInput = document.getElementById('arama-input'); 
+
     const favoriBtn = document.getElementById(FAVORILERI_GOSTER_BTN_ID);
 
+if (favoriBtn) {
+
+    console.log('Filtre butonu dinlenmeye hazır.'); // BU SATIRI EKLEYİN
+
+    favoriBtn.addEventListener('click', () => {
+
+        // ...
+
+        console.log('BUTON TIKLANDI. Geçerli durum: ' + sadeceFavorilerGosteriliyor); // BU SATIRI EKLEYİN
+
+        // ...
+
+    });
+
+}
+
     // Arama Fonksiyonu
+
     if (aramaInput) {
+
         aramaInput.addEventListener('input', (e) => {
+
             const aramaTerimi = e.target.value.toLowerCase();
+
             
+
             let kaynakListe = sadeceFavorilerGosteriliyor ? getFavoriFilmler() : tumFilmler;
 
+
+
             const filtrelenmisFilmler = kaynakListe.filter(film => 
+
                 film.title.toLowerCase().includes(aramaTerimi) || 
+
                 film.director.toLowerCase().includes(aramaTerimi)
+
             );
+
             
+
             filmleriGoster(filtrelenmisFilmler);
+
         });
+
     }
+
+
 
     
+
     if (favoriBtn) {
+
         favoriBtn.addEventListener('click', () => {
+
             sadeceFavorilerGosteriliyor = !sadeceFavorilerGosteriliyor;
 
+
+
             if (sadeceFavorilerGosteriliyor) {
+
                 const favoriListesi = getFavoriFilmler();
+
                 filmleriGoster(favoriListesi);
+
                 favoriBtn.innerHTML = '✨ Tümünü Göster';
+
             } else {
+
                 filmleriGoster(tumFilmler);
+
                 favoriBtn.innerHTML = '🤍 Favorilerimi Göster';
+
             }
+
         });
+
     }
+
 };
 
 const getFavoriFilmler = () => {
