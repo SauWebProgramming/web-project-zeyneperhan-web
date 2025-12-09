@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "title": "Harry Potter ve Felsefe Taşı",
+        "director": "chris columbus",
+        "year": "2001",
+        "genre": " Fantastik",
+        "description": "Büyücülük okuluna giden Harry'nin ilk yılı. Çocukluğumuzun filmi, efektleri hala güzel.",
+        "imageUrl" : "assets/harry_potter.jpg"
+    } ,
+    {
+        "id": 2,
+        "title": "Yüzüklerin Efendisi: Yüzük Kardeşliği",
+        "director": "Peter Jackson",
+        "year": 2001,
+        "genre" : "Fantastik", 
+        "description": "Orta Dünya'da geçen efsane seri. Filmi çok uzun ama asla sıkmıyor, görseller müthiş.",
+        "imageUrl" : "assets/yuzuklerin.jpg"
+    },
+    {
+       "id": 3,
+       "title": "Ayla",
+       "director": "Can Ulkay",
+       "year": 2017,
+       "genre": "Dram",
+       "description": "Kore Savaşı'ndaki bir Türk askeri ve küçük bir kızın hikayesi. İnanılmaz duygusal, sonunda ağlamayan yoktur.",
+       "imageUrl": "assets/ayla.jpg"
+      
+     },
+    {
+    "id": 4,
+    "title": "Esaretin Bedeli",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "genre": "Dram",
+    "description": "Haksız yere hapse giren adamın kaçış planı. Herkesin en sevdiği film, IMDB'de 1 numara zaten.",
+    "imageUrl": "assets/esaret.jpg"
+     },
+   {
+     "id": 5,
+     "title": "Baba (The Godfather)",
+     "director": "Francis Ford Coppola",
+     "year": 1972,
+     "genre": "Suç/Dram",
+     "description": "Mafya filmlerinin babası. Biraz eski ama replikleri ve ortamı çok havalı. Marlon Brando efsane oynuyor.",
+     "imageUrl": "assets/godfather.jpg"
+  },
+  {
+     "id": 6,
+     "title": "7. Koğuştaki Mucize",
+     "director": "Mehmet Ada Öztekin",
+     "year": 2019,
+     "genre": "Dram",
+     "description": "Memo ve kızı Ova'nın hikayesi. Ayla'dan sonra en çok ağlatan Türk filmi olabilir. Çok dokunaklıydı.",
+     "imageUrl": "assets/yedinci_kogus.jpg"
+  }
+
+]
