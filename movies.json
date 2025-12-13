@@ -2,10 +2,10 @@
     {
         "id" : 1,
         "title": "Harry Potter ve Felsefe Taşı",
-        "director": "chris columbus",
+        "director": "Chris Columbus",
         "year": "2001",
-        "genre": " Fantastik",
-        "description": "Büyücülük okuluna giden Harry'nin ilk yılı. Çocukluğumuzun filmi, efektleri hala güzel.",
+        "genre": "Fantastik",
+        "description": "On bir yaşındaki Harry Potter, anne ve babasının bir büyücü olduğunu öğrenir ve Hogwarts Cadılık ve Büyücülük Okulu'na kabul edilir. Burada yeni arkadaşlıklar kurar ve ilk yıl maceralarında okulun derinliklerinde saklı olan gizemli Felsefe Taşı'nın sırrını keşfetmek zorunda kalır.",
         "imageUrl" : "assets/harry_potter.jpg"
     } ,
     {
@@ -14,7 +14,7 @@
         "director": "Peter Jackson",
         "year": 2001,
         "genre" : "Fantastik", 
-        "description": "Orta Dünya'da geçen efsane seri. Filmi çok uzun ama asla sıkmıyor, görseller müthiş.",
+        "description": "Orta Dünya'yı karanlık efendi Sauron'un yıkımından kurtarmak için, Hobbit Frodo Baggins, Karanlık Lord'un gücünü taşıyan Tek Yüzük'ü yok etme görevini üstlenir. Ona yardım etmek ve yüzüğü Mordor'daki Hüküm Dağı'na ulaştırmak üzere sekiz yoldaştan oluşan Yüzük Kardeşliği kurulur.",
         "imageUrl" : "assets/yuzuklerin.jpg"
     },
     {
@@ -23,44 +23,43 @@
        "director": "Can Ulkay",
        "year": 2017,
        "genre": "Dram",
-       "description": "Kore Savaşı'ndaki bir Türk askeri ve küçük bir kızın hikayesi. İnanılmaz duygusal, sonunda ağlamayan yoktur.",
+       "description": "Kore Savaşı sırasında bir Türk tugayı askeri olan Astsubay Süleyman Dilbirliği'nin, kimsesiz ve annesi babası öldürülmüş Koreli küçük bir kız çocuğu bulmasıyla başlayan gerçek bir hikayeden uyarlanmıştır. Süleyman, Ayla adını verdiği kızı himayesine alır ve aralarında güçlü bir baba-kız bağı oluşur. Süleyman'ın Türkiye'ye dönmesi gerektiğinde, Ayla'yı bırakmak istememesi büyük bir ayrılık hikayesine neden olur.",
        "imageUrl": "assets/ayla.jpg"
-      
-     },
+    },
     {
     "id": 4,
     "title": "Esaretin Bedeli",
     "director": "Frank Darabont",
     "year": 1994,
     "genre": "Dram",
-    "description": "Haksız yere hapse giren adamın kaçış planı. Herkesin en sevdiği film, IMDB'de 1 numara zaten.",
+    "description": "Başarılı bir bankacı olan Andy Dufresne, karısını ve onun sevgilisini öldürmek suçundan iki kez müebbet hapis cezasına çarptırılır ve Shawshank Eyalet Hapishanesi'ne gönderilir. Film, Andy'nin parmaklıklar ardındaki acımasız hayata uyum sağlama mücadelesini, umudu ve yıllar süren gizli kaçış planını, dostu 'Red' ile kurduğu ilişki üzerinden anlatır.",
     "imageUrl": "assets/Esaretin Bedeli.jpg"
-     },
-   {
-     "id": 5,
-     "title": "Baba (The Godfather)",
-     "director": "Francis Ford Coppola",
-     "year": 1972,
-     "genre": "Suç/Dram",
-     "description": "Mafya filmlerinin babası. Biraz eski ama replikleri ve ortamı çok havalı. Marlon Brando efsane oynuyor.",
-     "imageUrl": "assets/godfather.jpg"
-  },
-  {
-     "id": 6,
-     "title": "7. Koğuştaki Mucize",
-     "director": "Mehmet Ada Öztekin",
-     "year": 2019,
-     "genre": "Dram",
-     "description": "Memo ve kızı Ova'nın hikayesi. Ayla'dan sonra en çok ağlatan Türk filmi olabilir. Çok dokunaklıydı.",
-     "imageUrl": "assets/yedinci_kogus.jpg"
-  },
-  {
+    },
+    {
+      "id": 5,
+      "title": "Baba (The Godfather)",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "genre": "Suç/Dram",
+      "description": "New York'taki güçlü İtalyan-Amerikan Corleone suç ailesinin hikayesini merkezine alır. Ailenin reisi Vito Corleone, suikast girişimi sonrası gücü, savaşa karşı çıkan en küçük oğlu Michael Corleone'ye devretmek zorunda kalır. Michael, ailesini koruma uğruna giderek daha acımasız bir mafya babasına dönüşür.",
+      "imageUrl": "assets/godfather.jpg"
+    },
+    {
+      "id": 6,
+      "title": "7. Koğuştaki Mucize",
+      "director": "Mehmet Ada Öztekin",
+      "year": 2019,
+      "genre": "Dram",
+      "description": "1983 yılında küçük bir Ege kasabasında yaşayan, zihinsel engelli Memo'nun (Aras Bulut İynemli), masum olmasına rağmen bir komutanın kızını öldürmekle suçlanarak idama mahkum edilmesini konu alır. Kızı Ova'dan ayrılmak zorunda kalan Memo'nun 7. koğuşta yaşadıkları ve masumiyetini kanıtlama çabası anlatılır.",
+      "imageUrl": "assets/yedinci_kogus.jpg"
+    },
+    {
         "id": 7,
         "title": "Fight Club",
         "year": 1999,
         "director": "David Fincher",
         "genre": "Dram / Gizem",
-        "description": "Uykusuzluk çeken ve hayatından bıkmış bir ofis çalışanı, sabun satıcısı olan karizmatik Tyler Durden ile tanışır ve gizli bir dövüş kulübü kurar. Kuralları çiğnedikçe hayatları kontrolden çıkar.",
+        "description": "Kimliği belirsiz ve isimsiz bir anlatıcının (Edward Norton), tüketim toplumundan duyduğu rahatsızlık nedeniyle hayatından ve işinden bıkmasıyla başlayan hikayeyi konu alır. Bu huzursuzluk, Tyler Durden (Brad Pitt) adında karizmatik bir sabun satıcısıyla tanışması ve yeraltı dövüş kulüpleri kurmalarıyla birlikte, toplumsal normlara karşı yıkıcı bir isyana dönüşür.",
         "imageUrl": "assets/fight_club.jpg" 
     },
     {
@@ -69,7 +68,7 @@
         "year": 1999,
         "director": "Lana Wachowski, Lilly Wachowski",
         "genre": "Bilim Kurgu / Aksiyon",
-        "description": "Bilgisayar programcısı Thomas Anderson, Morpheus adında gizemli bir hacker tarafından gerçekliğin yapay bir simülasyon (Matrix) olduğu konusunda uyarılır ve insanlığın kurtuluşu için savaşmaya başlar.",
+        "description": "Gündüzleri bilgisayar programcısı olan Thomas Anderson'ın, Morpheus adında gizemli bir hacker tarafından dünyamızın aslında Matrix adı verilen yapay bir simülasyon olduğu konusunda uyarılmasıyla başlar. Neo adını alan Thomas, gerçekliği sorgulayıp kırmızı hapı seçerek, makinelerle savaşan yeraltı direnişine katılır ve seçilmiş kişi (The One) olma yolculuğuna çıkar.",
         "imageUrl": "assets/matrix.jpg" 
     },
     {
@@ -78,9 +77,7 @@
     "year": 1997,
     "director": "James Cameron",
     "genre": "Romantik / Dram",
-    "description": "1912 yılında, lüks yolcu gemisi Titanik'teki fakir bir ressam olan Jack ile zengin bir nişanlısı olan Rose'un imkansız aşk hikayesi, geminin Kuzey Atlantik'te bir buzdağına çarpmasıyla felakete dönüşür.",
+    "description": "1912 yılında, dünyanın en büyük ve en lüks gemisi olan Titanik'in ilk ve son yolculuğu sırasında geçen destansı bir aşk hikayesini anlatır. Farklı sosyal sınıflardan gelen fakir ressam Jack Dawson ile zengin ve nişanlı genç kadın Rose DeWitt Bukater'in imkansız aşkı, geminin Kuzey Atlantik'te bir buzdağına çarpmasıyla yaşanan tarihi felaketle kesişir.",
     "imageUrl": "assets/titanic.jpg" 
-  }
-        
-
+    }
 ]
