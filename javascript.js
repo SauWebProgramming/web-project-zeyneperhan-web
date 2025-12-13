@@ -2,7 +2,7 @@
 const LOCAL_STORAGE_KEY = 'filmFavorileri';
 const FILM_LISTESI_ID = 'film-listesi';
 const DETAY_MODAL_ID = 'detay-modal';
-const FAVORILERI_GOSTER_BTN_ID = 'favoriler-goster-btn';
+const FAVORILERI_GOSTER_BTN_ID = 'favorileri-goster-btn';
 
 let tumFilmler = []; 
 let sadeceFavorilerGosteriliyor = false;

@@ -53,6 +53,34 @@
      "genre": "Dram",
      "description": "Memo ve kızı Ova'nın hikayesi. Ayla'dan sonra en çok ağlatan Türk filmi olabilir. Çok dokunaklıydı.",
      "imageUrl": "assets/yedinci_kogus.jpg"
+  },
+  {
+        "id": 7,
+        "title": "Fight Club",
+        "year": 1999,
+        "director": "David Fincher",
+        "genre": "Dram / Gizem",
+        "description": "Uykusuzluk çeken ve hayatından bıkmış bir ofis çalışanı, sabun satıcısı olan karizmatik Tyler Durden ile tanışır ve gizli bir dövüş kulübü kurar. Kuralları çiğnedikçe hayatları kontrolden çıkar.",
+        "imageUrl": "assets/fight_club.jpg" 
+    },
+    {
+        "id": 8,
+        "title": "The Matrix",
+        "year": 1999,
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "genre": "Bilim Kurgu / Aksiyon",
+        "description": "Bilgisayar programcısı Thomas Anderson, Morpheus adında gizemli bir hacker tarafından gerçekliğin yapay bir simülasyon (Matrix) olduğu konusunda uyarılır ve insanlığın kurtuluşu için savaşmaya başlar.",
+        "imageUrl": "assets/matrix.jpg" 
+    },
+    {
+    "id": 9,
+    "title": "Titanik (Titanic)",
+    "year": 1997,
+    "director": "James Cameron",
+    "genre": "Romantik / Dram",
+    "description": "1912 yılında, lüks yolcu gemisi Titanik'teki fakir bir ressam olan Jack ile zengin bir nişanlısı olan Rose'un imkansız aşk hikayesi, geminin Kuzey Atlantik'te bir buzdağına çarpmasıyla felakete dönüşür.",
+    "imageUrl": "assets/titanic.jpg" 
   }
+        
 
 ]
