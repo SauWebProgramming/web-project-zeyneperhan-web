@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "title": "The Matrix",
+        "title": "Matrix",
         "year": 1999,
         "director": "Lana Wachowski, Lilly Wachowski",
         "genre": "Bilim Kurgu / Aksiyon",
@@ -79,5 +79,151 @@
     "genre": "Romantik / Dram",
     "description": "1912 yılında, dünyanın en büyük ve en lüks gemisi olan Titanik'in ilk ve son yolculuğu sırasında geçen destansı bir aşk hikayesini anlatır. Farklı sosyal sınıflardan gelen fakir ressam Jack Dawson ile zengin ve nişanlı genç kadın Rose DeWitt Bukater'in imkansız aşkı, geminin Kuzey Atlantik'te bir buzdağına çarpmasıyla yaşanan tarihi felaketle kesişir.",
     "imageUrl": "assets/titanic.jpg" 
+    },
+    {
+        "id": 10,
+        "title": "Prestij (The Prestige)",
+        "year": 2006,
+        "director": "Christopher Nolan",
+        "genre": "Gizem / Dram",
+        "description": "Londra'da iki rakip sihirbazın, birbirlerini alt etmek için saplantılı ve tehlikeli bir rekabete girmesiyle yaşanan gizemli olaylar zincirini konu alır. Her yeni numara, rakiplerini daha tehlikeli sonuçlara iter.",
+        "imageUrl": "assets/prestij.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Avatar",
+        "year": 2009,
+        "director": "James Cameron",
+        "genre": "Bilim Kurgu / Aksiyon",
+        "description": "Pandora gezegeninde nadir bir minerali ele geçirmek için gönderilen felçli denizci Jake Sully, genetik olarak yaratılmış Na'vi bedenini (Avatar) kullanarak yerli halkın arasına sızar. Ancak zamanla Pandora'nın kültürü ve doğası onu derinden etkiler.",
+        "imageUrl": "assets/avatar.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Ben Efsaneyim (I Am Legend)",
+        "year": 2007,
+        "director": "Francis Lawrence",
+        "genre": "Bilim Kurgu / Korku",
+        "description": "Korkunç bir virüsün insanlığı yok etmesinden sonra, New York'ta kalan tek bağışıklı insan olan bilim adamı Robert Neville'ın hayatta kalma ve virüsün çaresini bulma mücadelesini anlatır. Geceleri mutantlar tarafından avlanırken gündüzleri umut arar.",
+        "imageUrl": "assets/ben_efsaneyim.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Kara Şövalye (The Dark Knight)",
+        "year": 2008,
+        "director": "Christopher Nolan",
+        "genre": "Aksiyon / Suç",
+        "description": "Batman'in Gotham şehrini suçtan temizleme çabaları, şehri kaosa sürüklemeyi hedefleyen deha suçlu Joker'in ortaya çıkmasıyla tehlikeye girer. Film, Batman'in kahramanlık sınırlarını zorlayan ahlaki çatışmasını işler.",
+        "imageUrl": "assets/kara_sovalye.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Joker",
+        "year": 2019,
+        "director": "Todd Phillips",
+        "genre": "Suç / Dram",
+        "description": "Film, başarısız bir komedyen olan Arthur Fleck'in, Gotham'ın yoksulluk ve adaletsizlik ortamında yavaş yavaş akıl sağlığını yitirerek, şehrin sembolik kötüsü Joker'e dönüşme sürecini, psikolojik derinliğiyle ele alır.",
+        "imageUrl": "assets/joker.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Alacakaranlık (Twilight)",
+        "year": 2008,
+        "director": "Catherine Hardwicke",
+        "genre": "Fantastik / Romantik",
+        "description": "Sıradan bir genç kız olan Bella Swan'ın, gizemli ve yakışıklı Edward Cullen'ın aslında bir vampir olduğunu öğrenmesiyle başlayan yasak aşk hikayesini anlatır. Bu ilişki, hem Bella'nın hem de Edward'ın ailesinin hayatını tehlikeye atar.",
+        "imageUrl": "assets/alacakaranlik.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Karayip Korsanları: Siyah İnci'nin Laneti",
+        "year": 2003,
+        "director": "Gore Verbinski",
+        "genre": "Aksiyon / Macera",
+        "description": "Kaptan Jack Sparrow'un, lanetli Karayip Korsanları tarafından çalınan gemisi Siyah İnci'yi geri alma macerasını konu alır. Ona, güzel Elizabeth Swann'ı kurtarmak isteyen Will Turner eşlik eder.",
+        "imageUrl": "assets/karayip_korsanlari.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Piyanist (The Pianist)",
+        "year": 2002,
+        "director": "Roman Polanski",
+        "genre": "Biyografi / Savaş",
+        "description": "Polonyalı Yahudi piyanist Władysław Szpilman'ın, 2. Dünya Savaşı sırasında Varşova'nın Nazi işgali altındayken yaşadığı yıkımı ve hayatta kalma mücadelesini anlatan gerçek bir hikayeye dayanır.",
+        "imageUrl": "assets/piyanist.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Gladyatör (Gladiator)",
+        "year": 2000,
+        "director": "Ridley Scott",
+        "genre": "Aksiyon / Dram",
+        "description": "Roma İmparatorluğu'nun sadık generali Maximus Decimus Meridius, imparatorun kıskanç oğlu Commodus tarafından ihanete uğrar ve ailesini kaybeder. Bir köle olarak hayatta kalıp gladyatör olan Maximus'un tek amacı, intikam almaktır.",
+        "imageUrl": "assets/gladyator.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Hababam Sınıfı",
+        "year": 1975,
+        "director": "Ertem Eğilmez",
+        "genre": "Komedi",
+        "description": "Özel Çamlıca Lisesi'nde okuyan, ders çalışmaktan çok haylazlık yapmayı seven, lakaplarıyla ünlü bir grup öğrencinin (Hababam Sınıfı) okul hayatını ve tatlı çatışmalarını anlatan efsanevi Türk komedi klasiğidir.",
+        "imageUrl": "assets/hababam_sinifi.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Zindan Adası (Shutter Island)",
+        "year": 2010,
+        "director": "Martin Scorsese",
+        "genre": "Gizem / Gerilim",
+        "description": "ABD Federal Polis Mareşali Teddy Daniels ve ortağı Chuck Aule, akıl hastalarına ev sahipliği yapan Ashecliffe Hastanesi'nden kaçan bir hastanın gizemli kayboluşunu araştırmak için uzak bir ada olan Shutter Island'a gider. Ancak ada, gittikçe daha tuhaf ve kafa karıştırıcı hale gelir.",
+        "imageUrl": "assets/zindan_adasi.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Babam ve Oğlum",
+        "year": 2005,
+        "director": "Çağan Irmak",
+        "genre": "Dram",
+        "description": "12 Eylül darbesi sırasında Ege'deki köyünden ayrılmak zorunda kalan gazeteci Sadık ile küçük oğlu Deniz'in duygusal hikayesini anlatır. Sadık'ın hastalığı nedeniyle oğlunu yıllardır görüşmediği babasına bırakma mücadelesi izleyiciye aktarılır.",
+        "imageUrl": "assets/babam_ve_oglum.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Buz Devri (Ice Age)",
+        "year": 2002,
+        "director": "Chris Wedge, Carlos Saldanha",
+        "genre": "Animasyon / Komedi",
+        "description": "Buzul Çağı'nın başlangıcında, tembel bir Sid adlı mamut, huysuz bir Manny adlı mamut ve kurnaz Diego adlı kaplanın, kaybolmuş bir insan bebeği ailesine geri götürme macerasını anlatır. Bu sırada sincap Scrat fındık derdindedir.",
+        "imageUrl": "assets/buz_devri.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Shrek",
+        "year": 2001,
+        "director": "Andrew Adamson, Vicky Jenson",
+        "genre": "Animasyon / Komedi",
+        "description": "Yanında geveze bir eşekle birlikte yaşayan huysuz dev Shrek'in, sinir bozucu Lord Farquaad'ın emriyle güzel Prenses Fiona'yı ejderhanın elinden kurtarma görevini üstlenmesini konu alır. Masal klişeleriyle dalga geçen bir animasyon klasiğidir.",
+        "imageUrl": "assets/shrek.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Karmakarışık (Tangled)",
+        "year": 2010,
+        "director": "Nathan Greno, Byron Howard",
+        "genre": "Animasyon / Müzikal",
+        "description": "Dünyayı keşfetme hayali kuran, 20 metre uzunluğunda sihirli saçlara sahip Prenses Rapunzel'in hikayesini anlatır. Kulesinden kaçmasına yardım eden çekici hırsız Flynn Rider ile birlikte tehlikeli ve eğlenceli bir maceraya atılır.",
+        "imageUrl": "assets/rapunzel.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Karlar Ülkesi (Frozen)",
+        "year": 2013,
+        "director": "Chris Buck, Jennifer Lee",
+        "genre": "Animasyon / Müzikal",
+        "description": "Korkunç kar ve buz güçlerine sahip Kraliçe Elsa'nın yanlışlıkla krallığını sonsuz bir kışa mahkum etmesi üzerine, küçük kız kardeşi Anna'nın, ablasını bulup krallığı kurtarmak için tehlikeli bir yolculuğa çıkmasını konu alır.",
+        "imageUrl": "assets/karlar_ulkesi.jpg"
     }
+
+
 ]
