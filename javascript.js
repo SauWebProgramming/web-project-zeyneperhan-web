@@ -79,6 +79,32 @@ const filmleriGoster = (filmler) => {
 // javascript.js - YENİ VE DÜZELTİLMİŞ filtrelemeKurulumu fonksiyonu
 
 const filtrelemeKurulumu = () => {
+    // javascript.js içindeki filtrelemeKurulumu fonksiyonunun içine ekle:
+
+const kategoriButonlari = document.querySelectorAll('.kategori-btn');
+
+kategoriButonlari.forEach(buton => {
+    buton.addEventListener('click', () => {
+        const secilenKategori = buton.dataset.kategori;
+        
+        // Aktif buton stilini değiştirme (opsiyonel)
+        kategoriButonlari.forEach(btn => btn.classList.remove('aktif-kategori'));
+        buton.classList.add('aktif-kategori');
+
+        if (secilenKategori === 'all') {
+            filmleriGoster(tumFilmler);
+        } else {
+            const filtrelenmis = tumFilmler.filter(film => 
+                film.genre.includes(secilenKategori)
+            );
+            filmleriGoster(filtrelenmis);
+        }
+        
+        // Kategori seçildiğinde favori modundan çıkmak için:
+        sadeceFavorilerGosteriliyor = false;
+        document.getElementById(FAVORILERI_GOSTER_BTN_ID).innerHTML = '🤍 Favorilerimi Göster';
+    });
+});
 
     const aramaInput = document.getElementById('arama-input'); 
 

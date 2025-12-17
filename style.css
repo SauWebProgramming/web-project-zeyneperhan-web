@@ -168,3 +168,43 @@ button:focus, input:focus {
     font-size: 0.9em;
     color: #b0b0b0;
 }
+.kategori-filtreleri {
+    display: flex !important;      /* Esnek kutu yapısını zorla */
+    justify-content: center !important; /* Yatayda kesin merkezleme */
+    align-items: center;           /* Dikeyde hizalama */
+    flex-wrap: wrap;               /* Butonlar sığmazsa alt satıra geçsin */
+    width: 100% !important;        /* Ekranın tüm genişliğini kapla */
+    margin: 20px 0 30px 0;         /* Üstten 20px, alttan 30px boşluk bırak */
+    gap: 10px;                     /* Butonlar arası boşluk */
+}
+
+.kategori-btn {
+    padding: 10px 18px;
+    background-color: #2b2b52;     /* Mevcut favori butonu renginle uyumlu */
+    color: white;
+    border: 1px solid #FFD700;     /* Altın sarısı çerçeve */
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.kategori-btn:hover, .kategori-btn.aktif-kategori {
+    background-color: #FFD700;
+    color: #121212;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.kategori-btn.aktif-kategori {
+    background-color: #FFD700;
+    color: #0a0a20;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+@media (max-width: 600px) {
+    .kategori-konteynir {
+        gap: 8px; /* Mobilde boşlukları biraz daraltır */
+    }
+    .kategori-btn {
+        padding: 8px 14px; /* Mobilde butonları biraz küçültür */
+        font-size: 0.85em;
+    }
+}
