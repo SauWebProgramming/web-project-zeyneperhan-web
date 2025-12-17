@@ -223,7 +223,32 @@
         "genre": "Animasyon / Müzikal",
         "description": "Korkunç kar ve buz güçlerine sahip Kraliçe Elsa'nın yanlışlıkla krallığını sonsuz bir kışa mahkum etmesi üzerine, küçük kız kardeşi Anna'nın, ablasını bulup krallığı kurtarmak için tehlikeli bir yolculuğa çıkmasını konu alır.",
         "imageUrl": "assets/karlar_ulkesi.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Hobbit: Beklenmedik Yolculuk",
+        "year": 2012,
+        "director": "Peter Jackson",
+        "genre": "Fantastik / Macera",
+        "description": "Bilbo Baggins'in, Büyücü Gandalf ve on üç cüceden oluşan bir grupla, Ejderha Smaug'un ele geçirdiği Yalnız Dağ'daki kayıp cüce krallığını geri almak için çıktığı destansı yolculuğu anlatır. Bu macera, Bilbo'yu Gollum'la karşılaştıracak ve Tek Yüzük'ü bulmasını sağlayacaktır.",
+        "imageUrl": "assets/hobbit.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Transformers",
+        "year": 2007,
+        "director": "Michael Bay",
+        "genre": "Bilim Kurgu / Aksiyon",
+        "description": "Milyonlarca yıl önce Cybertron gezegeninde başlayan iyi (Autobots) ve kötü (Decepticons) robot ırkları arasındaki savaşın Dünya'ya taşınmasını konu alır. Sam Witwicky adlı genç, bu savaşın ortasında kalır ve Autobot'lara dünyayı Decepticons'tan korumada yardım etmek zorundadır.",
+        "imageUrl": "assets/transformers.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Uyumsuz (Divergent)",
+        "year": 2014,
+        "director": "Neil Burger",
+        "genre": "Bilim Kurgu / Aksiyon",
+        "description": "Distopik bir gelecekte, insanlar yeteneklerine ve kişiliklerine göre beş farklı hizbe ayrılmıştır. Tris Prior'un, kendisini herhangi bir hizbe tam olarak ait kılamayan 'Uyumsuz' olduğunu keşfetmesiyle başlayan hayatta kalma ve sistemi sorgulama mücadelesini konu alır.",
+        "imageUrl": "assets/uyumsuz.jpg" 
     }
-
-
 ]

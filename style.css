@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212; 
+    background-color: #0a0a20; 
     color: #e0e0e0; 
     padding: 20px;
 }
@@ -14,22 +14,26 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px;
-    color: #64ffda; 
+    color: #FFD700; 
 }
 
 .arama-alani {
     text-align: center;
     margin-bottom: 40px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 #arama-input {
     padding: 12px 20px;
     width: 100%;
     max-width: 450px;
-    border: 2px solid #64ffda;
+    border: 2px solid #FFD700;
     border-radius: 50px; 
-    background-color: #222;
+    background-color: #171735;
     color: #e0e0e0;
     font-size: 1em;
     transition: all 0.3s ease; 
@@ -48,7 +52,7 @@ h1 {
 
   
 .film-kart {
-    background-color: #1e1e1e;
+    background-color: #1c1f40;
     border-radius: 12px;
     overflow: hidden;
     padding: 15px;
@@ -62,7 +66,7 @@ h1 {
 .film-kart:hover {
     
     transform: scale(1.03); 
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 30px rgba(255, 215, 0, 0.4);
 }
 
 .film-gorseli {
@@ -87,17 +91,18 @@ h1 {
 }
 
 .favori-ekle-btn, .favori-filtre-btn {
-    background-color: #555;
+    background-color: #2b2b52;
     color: white;
 }
 
 .favori-ekle-btn.favori-aktif {
-    background-color: #e91e63;
+    background-color: #FFD700;
+    color: #121212;
 }
 
 
 button:focus, input:focus {
-    outline: 3px solid #00bcd4; 
+    outline: 3px solid #FFD700; 
     outline-offset: 2px;
 }
 
@@ -115,10 +120,10 @@ button:focus, input:focus {
 }
 
 .modal-icerik {
-    background-color: #1e1e1e;
+    background-color: #030315;
     margin: 10% auto;
     padding: 30px;
-    border: 1px solid #333;
+    border: 1px solid #1f1f1f;
     width: 80%;
     max-width: 700px;
     border-radius: 15px;
@@ -127,7 +132,7 @@ button:focus, input:focus {
 }
 
 .modal-icerik h2 {
-    color: #64ffda;
+    color: #FFD700;
     margin-bottom: 15px;
 }
 
@@ -148,4 +153,18 @@ button:focus, input:focus {
     .film-gorseli {
         height: auto; 
     }
+}
+.kart-icerik {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.film-baslik {
+    margin-bottom: 5px;
+}
+.film-yonetmen {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #b0b0b0;
 }
